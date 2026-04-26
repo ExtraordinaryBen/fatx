@@ -1,0 +1,9 @@
+exec_prefix=@CMAKE_INSTALL_PREFIX@
+libdir=@LIB_INSTALL_DIR@
+includedir=@INCLUDE_INSTALL_DIR@
+
+Name: libfatx
+Description: FATX Filesystem Library
+Version: @PROJECT_VERSION@
+Libs: -L${libdir} -lfatx
+Cflags: -I${includedir}
